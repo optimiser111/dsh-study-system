@@ -1,0 +1,5 @@
+- insert:
+    - id: study-panel
+      name: dsh-study-panel
+    - id: study-worker
+      name: dsh-study-panel/worker

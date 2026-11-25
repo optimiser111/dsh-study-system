@@ -1,0 +1,14 @@
+{
+  "name": "reading-bridge",
+  "displayName": "学习系统 · VS Code 阅读采集",
+  "description": "只在学习面板开始采集后，读取 VS Code 当前编辑器的可见行。",
+  "publisher": "study-system",
+  "version": "0.1.0",
+  "engines": { "vscode": "^1.85.0" },
+  "categories": ["Education"],
+  "activationEvents": ["onStartupFinished"],
+  "extensionKind": ["ui"],
+  "capabilities": { "untrustedWorkspaces": { "supported": true } },
+  "main": "./extension.cjs",
+  "license": "UNLICENSED"
+}

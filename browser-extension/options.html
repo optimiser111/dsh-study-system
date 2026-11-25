@@ -1,0 +1,11 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>学习采集桥设置</title>
+<style>body{max-width:680px;margin:48px auto;padding:24px;font:16px/1.7 system-ui;color:#e8edf5;background:#111827}label{display:block;margin:16px 0}input,select,button{font:inherit;padding:8px;background:#1e293b;color:inherit;border:1px solid #64748b;border-radius:6px}input[type=password]{width:95%}button{cursor:pointer}small{color:#a5b4cc}</style>
+<h1>学习采集桥</h1><p>配对后可以在学习面板采集 B 站视频进度和 ChatGPT 网页对话。正式和试用模式需要对应的配对码。</p>
+<label>连接环境 <select id="port"><option value="7788">正式学习 · 7788</option><option value="7789">隔离试用 · 7789</option></select></label>
+<label>本地配对码 <input id="token" type="password" autocomplete="off" spellcheck="false"></label>
+<small>在项目目录的PowerShell执行 node server/cli.mjs capture-key，然后把配对码粘贴到这里。试用环境的码与正式环境不同，详见M3说明。</small>
+<label><input id="enabled" type="checkbox">允许采集桥连接本地服务</label>
+<button id="save">保存设置</button><p id="status" role="status"></p>
+<p>长时间不操作鼠标但仍在前台播放的视频会继续记录；暂停、后台、锁屏和缓冲不计时。浏览器和本地服务运行即可，不依赖DSH一直打开。</p>
+<p>采集 ChatGPT 时，先在学习面板选「ChatGPT 对话」并开始采集，再在目标对话标签页点扩展图标。标记 ON 表示已选定对话。滚动阅读后，回面板结束采集。</p>
+<script src="options.js"></script></html>

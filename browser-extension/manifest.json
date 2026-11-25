@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "学习系统 · 浏览器采集桥",
+  "version": "0.4.0",
+  "description": "记录已选的B站播放进度，或采集主动选中的 ChatGPT 网页对话正文。",
+  "permissions": ["storage", "idle", "activeTab", "scripting"],
+  "host_permissions": ["https://www.bilibili.com/*", "http://127.0.0.1:7788/*", "http://127.0.0.1:7789/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{ "matches": ["https://www.bilibili.com/video/*"], "js": ["content.js"], "run_at": "document_idle" }],
+  "action": { "default_title": "学习采集桥：在 ChatGPT 选中对话，其他页面打开设置" },
+  "options_page": "options.html"
+}

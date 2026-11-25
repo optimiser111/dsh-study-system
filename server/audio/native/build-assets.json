@@ -1,0 +1,6 @@
+[
+  { "name": "node-headers.tar.gz", "url": "https://nodejs.org/dist/v24.18.0/node-v24.18.0-headers.tar.gz", "sha256": "6c7d41d83c3481d2301115b8ce4a44b7d4fbfa52859b1aac14f445d460137887" },
+  { "name": "node.lib", "url": "https://nodejs.org/dist/v24.18.0/win-x64/node.lib", "sha256": "589684168a73547ca47cd22d76a4e465ef561abe89fb1b2b23fe35bbe857d505" },
+  { "name": "node-addon-api.tgz", "url": "https://registry.npmjs.org/node-addon-api/-/node-addon-api-8.5.0.tgz", "sha256": "d12f07c8162283b6213551855f1da8dac162331374629830b5e640f130f07910" },
+  { "name": "wil.zip", "url": "https://api.nuget.org/v3-flatcontainer/microsoft.windows.implementationlibrary/1.0.250325.1/microsoft.windows.implementationlibrary.1.0.250325.1.nupkg", "sha256": "b3e3ac9077c4f5f96bd8f90785bcae47bac6ba9688d896cd04422c8972ec5b2b" }
+]

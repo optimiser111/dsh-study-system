@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Study Panel",
+    "description": "Read-only: XP and level per axis, cards due for review, and lapsed cards. Data comes from the local study-system service."
+  }
+}

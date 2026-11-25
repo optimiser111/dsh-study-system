@@ -1,0 +1,56 @@
+{
+  "name": "dsh-study-panel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "学习系统 M1 只读面板：经验、到期复习、错题",
+  "exports": {
+    ".": "./index.js",
+    "./worker": "./worker.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "worker.js",
+    "generate-core.js",
+    "lesson-core.js",
+    "grading.js",
+    "dialogue.js",
+    "research.js",
+    "subject-identity.js",
+    "subject-presentation.js",
+    "prerequisite-graph.js",
+    "native-search.js",
+    "source-reader.js",
+    "generation-result.js",
+    "deep-research.js",
+    "node-exploration.js",
+    "node-appearance.js",
+    "foundations.js",
+    "foundation-evidence.js",
+    "client.js",
+    "client-source.js",
+    "knowledge-scene.js",
+    "THREE-LICENSE.txt",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "subject-areas.js",
+    "camera-navigation.js"
+  ],
+  "dependencies": {
+    "unpdf": "2.1.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": []
+    }
+  }
+}

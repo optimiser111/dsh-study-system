@@ -1,0 +1,27 @@
+{
+  "name": "study-system",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "M1: bilibili transcript -> cards -> grade -> xp -> review queue",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "build:panel": "node scripts/build-panel.mjs",
+    "test": "node test/all.mjs",
+    "cli": "node server/cli.mjs"
+  },
+  "dependencies": {
+    "loopback-capture": "4.0.0",
+    "sherpa-onnx-node": "1.13.8",
+    "three": "^0.187.0",
+    "unpdf": "2.1.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright-core": "^1.65.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  }
+}
